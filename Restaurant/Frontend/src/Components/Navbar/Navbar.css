@@ -1,0 +1,68 @@
+.navbar{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .logo{
+  max-width: 120px;
+  min-height: 80px;
+}
+
+.navbar-menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar .active{
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ffff;
+}
+
+.navbar li{
+  cursor: pointer;
+}
+
+.navbar-right{
+  display: flex;
+  color: #fff;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-search-icon{
+  position: relative;
+}
+
+.navbar-search-icon .dot{
+  position: absolute;
+  min-width: 8px;
+  min-height: 8px;
+  background-color: red;
+  border-radius: 10px;
+  top: -7px;
+  right: -7px;
+}
+
+.sign-in{
+  color: #fff;
+  border: solid white;
+  border-width: 1px;
+  padding: 3px 10px;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navbar button:hover{
+  color: black;
+  background-color:  #ffc107;
+}
+
+
+
